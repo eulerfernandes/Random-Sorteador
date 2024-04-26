@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(7, 44, 255);
+    min-height: 100vh;
+    
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.caixa-to {
+    background-color: rgb(7, 44, 255);
+    width: 60%;
+
+}
+    
+p {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 252, 252);
+    
+}
+
+button {
+    width: 100px;
+    height: 20px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+    border: none;
+}
+
+
+.caixa-button {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+input {
+    background-color: rgb(233, 233, 233);
+    width: 100px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+   border-radius: 4px;
+   border: none;
+   color: red;
+}
+
